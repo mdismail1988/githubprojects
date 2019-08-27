@@ -15,11 +15,15 @@ Steps:
    docker run -d --restart=always -p 80:80 demo
 
 Service1 :
+
 Endpoint url : <host>/projects/<username>
+   
 Example : http://ec2-13-235-0-181.ap-south-1.compute.amazonaws.com/projects/mdismail1988
 Output: [{"id":"204500043","name":"githubprojects","html_url":"https://github.com/mdismail1988/githubprojects"},{"id":"203295920","name":"purchaseInfoService","html_url":"https://github.com/mdismail1988/purchaseInfoService"}]
 
 
 Service2 :
+
 Endpoint url: <host>/projects/<username>/<project-name> 
+   
 Example : http://ec2-13-235-0-181.ap-south-1.compute.amazonaws.com/projects/mdismail1988/purchaseInfoService
