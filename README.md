@@ -1,6 +1,9 @@
 > Spring boot application has 2 services to get the list of projects for given username and readme.md data of the project
+
 > The micro service will be tested & build with Docker image
+
 > There is a Jenkins job configured for CI to trigger the build and create Docker image.
+
 > Jenkins was installed and setup in the Amazon ec2 servers
 
 Steps:
